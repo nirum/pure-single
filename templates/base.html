@@ -43,7 +43,7 @@
                     <header class="header">
                         <hgroup>
                             {% if PROFILE_IMG_URL %}
-                            <img class="avatar" src="{{ PROFILE_IMG_URL }}">
+														<a href="{{ PROFILE_IMG_HREF }}"><img class="avatar" src="{{ PROFILE_IMG_URL }}"></a>
                             {% endif %}
                             <h1 class="brand-main"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
                             <p class="tagline">{{ TAGLINE }}</p>
@@ -53,7 +53,7 @@
                                 <p class="social">
                             {% for title, link in SOCIAL %}
                                     <a href="{{ link }}">
-                                        <i class="fa fa-{{ title }} fa-3x"></i>
+                                        <i class="fa fa-{{ title }} fa-2x"></i>
                                     </a>
                             {% endfor %}
                                 </p>

@@ -44,12 +44,19 @@ pre {
     height: 100px;
     border-radius: 50px;
     margin-left: 1em;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     z-index: 500;
     background-color: #fff;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.avatar:hover {
+    border: 2px solid #aaa;
+}
+
+.social a:hover {
+		color: #aaa;
 }
 
 .cover-img {
@@ -83,7 +90,7 @@ pre {
     margin: 0;
 }
 .brand-title {
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .article-info {
@@ -112,14 +119,16 @@ pre {
 }
 
 .brand-main a {
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
     font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+
+.brand-main a:hover {
+		color: #aaa;
 }
 
 .tagline {
