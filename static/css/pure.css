@@ -35,7 +35,7 @@ pre {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 25%;
+    width: 18%;
     margin-left: -25%;
 }
 
@@ -44,9 +44,9 @@ pre {
     height: 100px;
     border-radius: 50px;
     margin-left: 1em;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     z-index: 500;
-    background-color: #fff;
+    background-color: #000;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     box-shadow: 0 1px 1px rgba(0,0,0,0.3);
@@ -80,9 +80,9 @@ pre {
     position: absolute;
     bottom: 0;
     max-width: 100%;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     padding-top: 100px;
-    background-image: linear-gradient(to top,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(to top,rgba(0,0,0,0.1) 0,rgba(0,0,0,0.05) 70%,rgba(0,0,0,0) 100%);
 }
 
 .brand-title,
@@ -123,7 +123,7 @@ pre {
     text-decoration: none;
     margin-left: 15px;
     font-size: 20px;
-    color: #fff;
+    color: #333;
     font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 
@@ -147,7 +147,7 @@ pre {
     text-decoration: none;
     margin-left: 15px;
     text-shadow: 0 1px 3px rgba(0,0,0,0.3);
-    color: #fff;
+    color: #333;
 }
 
 .links a {
@@ -157,12 +157,12 @@ pre {
     letter-spacing: 2px;
     text-shadow: 0 1px 3px rgba(0,0,0,0.3);
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 .content-subhead {
     text-transform: uppercase;
-    color: #aaa;
+    color: #333;
     border-bottom: 1px solid #eee;
     padding: 0.4em 0;
     font-size: 80%;
